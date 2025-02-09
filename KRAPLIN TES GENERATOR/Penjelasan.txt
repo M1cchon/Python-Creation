@@ -1,0 +1,6 @@
+Program ini bertujuan untuk menghasilkan kumpulan angka acak yang disusun dalam format tes Kraeplin, kemudian menyimpannya sebagai gambar dengan kualitas tinggi. Tes Kraeplin sendiri sering digunakan dalam psikotes untuk mengukur konsentrasi dan daya tahan seseorang dalam menyelesaikan tugas berulang. Dengan program ini, pengguna bisa dengan mudah membuat dan menyimpan tampilan tes tanpa harus menyusunnya secara manual.
+
+Cara kerja program ini cukup sederhana. Pertama, ia membuat matriks berisi angka acak dari 0 hingga 9 dengan ukuran 30x30 menggunakan NumPy. Setelah matriks terbentuk, program akan menampilkannya sebagai gambar tanpa garis pembatas menggunakan Matplotlib. Supaya hasilnya terlihat lebih rapi, angka-angka dalam matriks ditampilkan dengan penyesuaian posisi dan ukuran font. Terakhir, gambar disimpan dalam format PNG dengan resolusi tinggi (dpi=600), memastikan hasilnya tetap jelas dan tajam saat dicetak atau digunakan dalam presentasi.
+
+Dengan adanya program ini, siapa pun yang ingin membuat latihan atau simulasi tes Kraeplin bisa melakukannya dengan cepat dan efisien. Pengguna hanya perlu menjalankan skrip Python ini, dan secara otomatis akan mendapatkan gambar tes dalam format PNG. Jika ingin mengubah ukuran matriks atau meningkatkan kualitas gambar, cukup menyesuaikan parameter yang tersedia di dalam kode.
+
